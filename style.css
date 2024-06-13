@@ -1,0 +1,63 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #23cbf5, #0fb69a);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 800px;
+    max-width: 90%;
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 2em;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+    position: relative;
+}
+
+button#yesButton {
+    background-color: #4CAF50;
+    color: white;
+}
+
+button#yesButton:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+}
+
+button#noButton {
+    background-color: #f44336;
+    color: white;
+}
+
+button#noButton:hover {
+    background-color: #e53935;
+    transform: scale(1.1);
+}
